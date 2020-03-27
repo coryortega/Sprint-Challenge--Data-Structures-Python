@@ -27,7 +27,10 @@ for name in names_1:
 
 for name in names_2:  
     if bt.contains(name):
-        duplicates.append(name) 
+        duplicates.append(name)
+
+# old run time: 14.820281982421875 seconds
+# new run time: 0.2053077220916748 seconds
 
 end_time = time.time()
 print (f"{len(duplicates)} duplicates:\n\n{', '.join(duplicates)}\n\n")
